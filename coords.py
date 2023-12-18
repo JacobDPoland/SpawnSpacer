@@ -10,7 +10,7 @@ data = file.read()
 # Split the input into lines
 lines = data.split('\n')
 
-# Initialize a 2D array to store the x and z values
+# Initialize a 2D array to store the index, x, y, and z values
 processed_data = []
 
 # Parse each line and extract values
